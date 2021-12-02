@@ -126,7 +126,7 @@ const newUser = {
   lineHeight: "22.5px",
   float: "Left",
   position: "absolute",
-  width: "77px",
+  //   width: "77px",
   height: "23px",
   marginLeft: "302px",
   marginTop: "491px",
