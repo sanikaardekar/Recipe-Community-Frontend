@@ -1,0 +1,81 @@
+.loginDiv {
+  width: 30%;
+  margin-left: 10%;
+  margin-top: 7%;
+}
+
+.headings {
+  font-weight: 600 !important;
+  font-style: normal !important;
+  font-size: 40px !important;
+  line-height: 60px !important;
+  display: flex !important;
+  fill: #000000;
+}
+.email {
+  font-weight: 400 !important;
+  font-style: normal !important;
+  font-size: 25px !important;
+  line-height: 37.5px !important;
+  display: flex !important;
+  color: #06a561;
+  margin-top: 5% !important;
+}
+
+.styledForm {
+  height: 40px;
+
+  background-color: #e5e5e5;
+  border-radius: 20px;
+  box-shadow: inset 1px 1px 20px rgba(0, 0, 0, 0.25);
+}
+
+.styledRegister {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: #ffffff;
+  text-transform: none !important;
+  text-decoration: none;
+  height: 23px;
+}
+
+.styledButtonForL {
+  font-weight: normal;
+  font-style: normal;
+  text-transform: none !important;
+  font-size: 15px;
+  line-height: 22px;
+  color: #ffffff;
+
+  float: right;
+  width: 35% !important;
+  margin-top: 10% !important;
+  background-color: #06a561 !important;
+  border-radius: 20px !important;
+}
+.newUser {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 22.5px;
+  margin-top: 15% !important;
+  color: #000000;
+  float: right;
+}
+
+.styledButtonForR {
+  display: flex;
+  float: right;
+  font-weight: normal;
+  width: 90%;
+  height: 40%;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: 25% !important;
+  color: #ffffff;
+  background-color: #06a561 !important;
+  border-radius: 20px !important;
+}
