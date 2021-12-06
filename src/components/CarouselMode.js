@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../index.css";
+import "../styles/loginWith.css";
 function CarouselMode() {
   // const mystyle = {
   // height:"100%",
