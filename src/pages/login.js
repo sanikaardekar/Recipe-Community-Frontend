@@ -1,6 +1,7 @@
 import React from "react";
 import { PRIMARY_GREEN } from "../styles/colorPallete.js";
 import LoginWith from "../components/loginWith";
+import "../styles/login.css";
 import Grid from "@mui/material/Grid";
 import Register from "../components/register";
 import useMediaQuery from "@mui/material/useMediaQuery";
@@ -10,7 +11,7 @@ const Login = () => {
   const matches = useMediaQuery("(max-width:600px)");
   return (
     <>
-      <div style={navBar}></div>
+      <div className="navBar"></div>
       <Grid container>
         <Grid item xs={8} sm={5.5} med={6} lg={6.5}>
           <Router>
@@ -21,18 +22,13 @@ const Login = () => {
           </Router>
         </Grid>
         {!matches && (
-          <Grid item xs={4} md={6} lg={5.5}>
+          <Grid item xs={4} sm={6.5} md={6} lg={5.5}>
             <CarouselMode />
           </Grid>
         )}
       </Grid>
     </>
   );
-};
-const navBar = {
-  backgroundColor: "#06A561",
-  maxWidth: "1440px",
-  height: "101px",
 };
 
 export default Login;
