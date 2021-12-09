@@ -36,24 +36,27 @@ body {
   display: flex !important;
   fill: #000000;
 }
-.email {
+.textInGreen {
   font-weight: 400 !important;
   font-style: normal !important;
-  font-size: 150% !important;
   line-height: 150% !important;
+
   display: flex !important;
   color: #06a561;
   margin-top: 5% !important;
 }
-
+.size-150 {
+  font-size: 150% !important;
+}
 .styledForm {
   height: 40px;
-
   background-color: #e5e5e5;
   border-radius: 20px;
   box-shadow: inset 1px 1px 20px rgba(0, 0, 0, 0.25);
 }
-
+.width-80 {
+  width: 80%;
+}
 .styledRegister {
   font-weight: normal;
   font-style: normal;
@@ -77,6 +80,9 @@ body {
   margin-top: 10% !important;
   background-color: #06a561 !important;
   border-radius: 20px !important;
+}
+.marginR {
+  margin-right: 20% !important;
 }
 .newUser {
   font-weight: 400;

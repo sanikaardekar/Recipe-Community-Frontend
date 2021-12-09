@@ -9,16 +9,16 @@ const LoginWith = () => {
     <div className="loginDiv">
       <Grid container>
         <Grid item xs={12}>
-          <Typography className="headings">Login</Typography>
+          <Typography className="headings ">Login</Typography>
         </Grid>
         <Grid item xs={12}>
-          <Typography className="email">Email</Typography>
+          <Typography className="textInGreen size-150">Email</Typography>
         </Grid>
         <Grid item xs={12}>
           <form className="styledForm" />
         </Grid>
         <Grid item xs={12}>
-          <Typography className="email">Password</Typography>
+          <Typography className="textInGreen size-150">Password</Typography>
         </Grid>
         <Grid item xs={12}>
           <form className="styledForm" />
