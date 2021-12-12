@@ -44,7 +44,7 @@ const LoginWith = () => {
             value={formik.values.email}
           />
           {formik.touched.email && formik.errors.email ? (
-            <p>{formik.errors.email}</p>
+            <p className="error">{formik.errors.email}</p>
           ) : null}
         </Grid>
         <Grid item xs={12}>
@@ -61,7 +61,7 @@ const LoginWith = () => {
             value={formik.values.password}
           />
           {formik.touched.password && formik.errors.password ? (
-            <p>{formik.errors.password}</p>
+            <p className="error">{formik.errors.password}</p>
           ) : null}
         </Grid>
         <Grid item xs={12}>

@@ -59,7 +59,7 @@ const Register = () => {
               value={formik.values.name}
             />
             {formik.touched.name && formik.errors.name ? (
-              <p>{formik.errors.name}</p>
+              <p className="error">{formik.errors.name}</p>
             ) : null}
           </Grid>
           <Grid item xs={12}>
@@ -76,7 +76,7 @@ const Register = () => {
               value={formik.values.email}
             />
             {formik.touched.email && formik.errors.email ? (
-              <p>{formik.errors.email}</p>
+              <p className="error">{formik.errors.email}</p>
             ) : null}
           </Grid>
           <Grid item xs={12}>
@@ -93,7 +93,7 @@ const Register = () => {
               value={formik.values.setPassword}
             />
             {formik.touched.setPassword && formik.errors.setPassword ? (
-              <p>{formik.errors.setPassword}</p>
+              <p className="error">{formik.errors.setPassword}</p>
             ) : null}
           </Grid>
           <Grid item xs={12}>
@@ -110,7 +110,7 @@ const Register = () => {
               value={formik.values.confirmPassword}
             />
             {formik.touched.confirmPassword && formik.errors.confirmPassword ? (
-              <p>{formik.errors.confirmPassword}</p>
+              <p className="error">{formik.errors.confirmPassword}</p>
             ) : null}
           </Grid>
           <Grid item xs={12}>

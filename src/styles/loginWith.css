@@ -50,7 +50,7 @@ body {
   color: #06a561 !important;
   margin-top: 5% !important;
 }
-p {
+.error {
   color: red;
   display: flex;
   margin-bottom: 0 !important;
