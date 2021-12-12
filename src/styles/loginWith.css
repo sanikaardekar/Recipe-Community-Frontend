@@ -53,6 +53,7 @@ body {
 p {
   color: red;
   display: flex;
+  margin-bottom: 0 !important;
 }
 .size-150 {
   font-size: 150% !important;
