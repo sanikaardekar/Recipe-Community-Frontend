@@ -38,7 +38,8 @@ body {
   font-size: 250% !important;
   line-height: 150% !important;
   display: flex !important;
-  fill: #000000;
+  fill: #000000 !important;
+  color: #000000;
 }
 .textInGreen {
   font-weight: 400 !important;
@@ -46,8 +47,12 @@ body {
   line-height: 150% !important;
 
   display: flex !important;
-  color: #06a561;
+  color: #06a561 !important;
   margin-top: 5% !important;
+}
+p {
+  color: red;
+  display: flex;
 }
 .size-150 {
   font-size: 150% !important;
