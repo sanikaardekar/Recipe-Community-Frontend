@@ -1,0 +1,13 @@
+.text {
+  font-family: "Poppins" !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-size: 150% !important;
+  line-height: 175% !important;
+  float: Left;
+  color: #7e84a3;
+}
+.height-20 {
+  height: 25px !important;
+  display: flex;
+}

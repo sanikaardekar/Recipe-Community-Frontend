@@ -1,0 +1,10 @@
+.navBar {
+  background-color: #06a561;
+  max-width: 1440px;
+  height: 101px;
+}
+@media screen and (max-width: 400px) {
+  .navBar {
+    height: 51px !important;
+  }
+}

@@ -1,12 +1,12 @@
-import './App.css';
-import CarouselMode from './CarouselMode.js';
+import "./App.css";
+import Login from "./pages/login";
 
 function App() {
   return (
-    <div>
-      <CarouselMode />
+    <div className="App">
+      <Login />
     </div>
-     );
+  );
 }
 
 export default App;
