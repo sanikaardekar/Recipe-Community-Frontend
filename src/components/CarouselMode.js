@@ -1,20 +1,20 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../styles/loginWith.css";
 function CarouselMode() {
-    // const mystyle = {
-    // height:"100%",
-    // width:"30%",
-    // display:"flex",
-    // justifyContent:"flex-end"
-    //   };
+  // const mystyle = {
+  // height:"100%",
+  // width:"30%",
+  // display:"flex",
+  // justifyContent:"flex-end"
+  //   };
   return (
     <div>
       <Carousel fade className="mystyle">
         <Carousel.Item interval={3000}>
-          <img 
-            style={{height: "100px !important" }}
+          <img
+            style={{ height: "100px !important" }}
             className="d-block w-100 mystyle2"
             src="https://images.unsplash.com/photo-1638329313670-0ef6cf95a3ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDl8eGpQUjRobGtCR0F8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
             alt="First slide"
