@@ -1,0 +1,25 @@
+.cuisine-image{
+    border-radius: 50%;
+    margin: auto;
+    /* float: left; */
+}
+.slick-prev:before, .slick-next:before {
+    color: black !important;
+}
+.cuisine-list{
+    display: flex;
+    text-align: center;
+    padding-top:9px; 
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.title{
+ font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+color: #000000;
+}
