@@ -1,7 +1,7 @@
 
 import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home/Home';
-import ContactUs from './pages/ContactUs/ContactUs';
+// import ContactUs from './pages/ContactUs/ContactUs';
 import './App.css';
 import React from 'react';
 import {
@@ -9,7 +9,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import CarouselMode from './CarouselMode.js';
+
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Navbar/>
         <Routes>
         <Route exact path="/home" element={<Home/>}/>
-        <Route exact path="/contactus" element={<ContactUs/>}/>
+        {/* <Route exact path="/contactus" element={<ContactUs/>}/> */}
         </Routes>
         </div>
       </Router>
