@@ -1,10 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
 .navBar {
   background-color: #06a561;
- 
+ display: flex;
+ align-items: center;
   height: 101px;
 }
 @media screen and (max-width: 400px) {
   .navBar {
     height: 51px !important;
   }
+  .appName{
+    font-size: 35px;
+  }
+}
+.appName{
+  font-family: 'Quintessential', cursive;
+  color: #ffffff;
+  font-size: 50px;
+  display: flex;
+padding-left: 3%;
+
 }
