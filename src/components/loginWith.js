@@ -2,7 +2,6 @@ import React from "react";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-
 import "../styles/loginWith.css";
 import { useFormik } from "formik";
 import * as Yup from "yup";
@@ -36,7 +35,6 @@ const LoginWith = () => {
 
         <Grid item xs={12}>
           <input
-           
             className="styledInput"
             id="email"
             name="email"
@@ -56,7 +54,6 @@ const LoginWith = () => {
           <input
             className="styledInput"
             id="password"
-           
             name="password"
             type="password"
             onBlur={formik.handleBlur}
@@ -81,12 +78,12 @@ const LoginWith = () => {
         <Grid item xs={8}>
           <Typography className="newUser">New User?</Typography>
         </Grid>
-        <Grid item xs={4} className="flexRegister">
-          <Typography className="textInGreen">
+        <Grid item xs={4}>
+          <Button variant="contained" className="styledButtonForR">
             <Link to="/Register" className="styledRegister">
               Register
             </Link>
-          </Typography>
+          </Button>
         </Grid>
       </Grid>
     </div>
