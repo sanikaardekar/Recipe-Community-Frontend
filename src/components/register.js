@@ -120,7 +120,7 @@ const Register = () => {
               type="submit"
               onClick={formik.handleSubmit}
             >
-              Login
+             Register
             </Button>
           </Grid>
         </Grid>

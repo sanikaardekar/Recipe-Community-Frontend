@@ -7,11 +7,17 @@ import Register from "../components/register";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import CarouselMode from "../components/CarouselMode.js";
 import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
+import { Typography } from "@mui/material";
 const Login = () => {
   const matches = useMediaQuery("(max-width:600px)");
   return (
     <>
-      <div className="navBar"></div>
+      <div className="navBar">
+<h1 className="appName">
+  tasty
+</h1>
+
+      </div>
       <Grid container>
         <Grid item xs={8} sm={5.5} med={6} lg={6.5}>
           <Router>
