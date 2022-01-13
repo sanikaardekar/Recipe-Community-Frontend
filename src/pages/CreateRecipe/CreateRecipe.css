@@ -1,0 +1,37 @@
+.title{
+font-family: Poppins !important;
+font-size: 36px !important;
+line-height: 54px;
+color:#06A561;
+font-style: normal;
+font-weight: normal;
+display: inline-block;
+overflow: hidden;
+white-space: nowrap;
+}
+.input-titles
+{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+.tf-desc{
+    width: clamp(200px, 400px, 500px);
+}
+#input-img
+{
+    width: 291px;
+    height: 206px;
+    opacity: 0;
+   position: absolute;
+   z-index: -1;
+}
+label{
+    cursor: pointer;
+}
+.add-img-icon{
+  text-align: center !important;
+  display: inline-block;
+}
